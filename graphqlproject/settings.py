@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'gqapp',
     'graphene_django',
-    'django_filter',
+    # 'Django_filter',
     
 ]
 

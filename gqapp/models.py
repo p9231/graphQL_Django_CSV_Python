@@ -1,12 +1,12 @@
 from django.db import models
 
 class ProductModel(models.Model):
-    segment = models.CharField(max_length=100)
-    country = models.CharField(max_length=100)
-    product = models.CharField(max_length=100)
-    units = models.IntegerField(max_length=100)
-    sales = models.IntegerField(max_length=100)
-    dateolds = models.CharField(max_length=100)
+    Segment = models.CharField(max_length=100)
+    Country = models.CharField(max_length=100)
+    Product = models.CharField(max_length=100)
+    Units = models.IntegerField()
+    Sales = models.IntegerField()
+    Datesold = models.CharField(max_length=100)
     
     
     def __str__(self):
